@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+C:\Users\Raquelita\Documents\GitHub\BuscaminasLenguajes\.metadata\.plugins\org.eclipse.jdt.core
+456412379.index
+2992514243.index
+49881591.index
