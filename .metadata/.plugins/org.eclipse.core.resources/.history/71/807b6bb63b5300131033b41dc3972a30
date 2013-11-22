@@ -1,0 +1,27 @@
+package com.example.buscaminas;
+
+import android.content.Context;
+import android.graphics.Canvas;
+import android.view.View;
+import android.graphics.Paint;
+
+public class tablero extends View {
+
+	public tablero(Context context) {
+		super(context);
+		// TODO Auto-generated constructor stub
+	}
+	@Override
+	protected void onDraw(Canvas canvas){
+		canvas.drawRGB(0, 0, 0);
+		int ancho=0;
+		if (canvas.getWidth() < canvas.getHeight()){
+			ancho= this.getWidth();
+		}else{
+			ancho= this.getHeight();
+		}
+		int anchocua = ancho/8;
+		Paint pincel= new Paint();
+	}
+
+}

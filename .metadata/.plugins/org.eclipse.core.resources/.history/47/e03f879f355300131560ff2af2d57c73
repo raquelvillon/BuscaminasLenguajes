@@ -1,0 +1,7 @@
+package com.example.buscaminas;
+
+import android.view.View;
+
+public class tablero extends View {
+
+}
